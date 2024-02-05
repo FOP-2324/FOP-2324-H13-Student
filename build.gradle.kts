@@ -2,6 +2,7 @@ import org.sourcegrade.jagr.launcher.env.Config
 import org.sourcegrade.jagr.launcher.env.Executor
 
 plugins {
+    alias(libs.plugins.jagr)
     alias(libs.plugins.algomate)
     alias(libs.plugins.javafxplugin)
 }
